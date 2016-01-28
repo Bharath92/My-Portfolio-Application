@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         Context context = getApplicationContext();
         Button button = (Button)view;
         String buttonText = button.getText().toString();
-        CharSequence text = "This will open the "+buttonText+" app.";
+        CharSequence text = "This will open the "+buttonText+".";
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
         Context context = getApplicationContext();
         Button button = (Button)view;
         String buttonText = button.getText().toString();
-        CharSequence text = "This will open the "+buttonText+" app.";
+        CharSequence text = "This will open the "+buttonText+".";
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
